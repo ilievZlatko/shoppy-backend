@@ -10,6 +10,6 @@ phases:
     commands:
       - pnpm prisma generate
       - pnpm build
-  post_build:
-    files:
-      - '**/*'
+  # post_build:
+  #   files:
+  #     - '**/*'
